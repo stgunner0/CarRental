@@ -235,4 +235,5 @@ if ($_GET['addStock']=="increase_totalCarNumber") {
 	}
 }
 
+
 ?>

@@ -94,6 +94,10 @@ $arabasor=$conn->prepare("select * from cars");
         <tr>
           <td>
             <?php echo $arabacek['name'] ?>
+            <div class="col-md-5">
+                <center><a href="admin_car_reservations.php?car_id=<?php echo $arabacek['car_id'];?>&addStock=car_reservation"><button
+                      class="btn btn-success btn-xs">See Rents</button></a></center>
+              </div>
           </td>
           <td>
           <div class="row">
